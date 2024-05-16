@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
-    <div class="max-w-[1110px] m-auto mt-14">
+    <div class="max-w-[1190px] m-auto mt-14">
       <div class="">
-        <div class="flex justify-between">
+        <div class="header flex justify-between mobile-sm:px-10">
           <img src="/image/logo.svg" alt="logo-image" />
           <div
             class="bg-slate-300 hover:bg-slate-900 hover:text-white flex items-center px-6 py-4 rounded-xl font-bold"
@@ -17,7 +17,7 @@
             PRE-ORDER NOW
           </div>
         </div>
-        <div class="flex mt-20 justify-between">
+        <div class="flex mt-20 justify-between mobile-sm:pl-10">
           <div class="max-w-[445px]">
             <div class="text-6xl font-bold mt-[60px]">TYPEMASTER KEYBORD</div>
             <p class="mt-6 text-gray-400">
@@ -33,70 +33,83 @@
               <p class="ml-10 font-bold text-gray-400">RELEASE ON 5/27</p>
             </div>
           </div>
-          <div class=""><img src="/image/keyboard.png" alt="" /></div>
-        </div>
-        <div class="flex justify-between mt-6 items-center">
-          <div class="flex">
-            <img src="/image/orange-keybord.png" alt="keybord image" />
-            <img class="ml-8" src="/image/office.png" alt="office image" />
-          </div>
-          <div class="max-w-[245px]">
-            <p class="text-2xl font-bold">MECHANICAL WIRELESS KEYBOARD</p>
-            <p class="mt-7">
-              The Typemaster keyboard boasts top-notch build and practical
-              design. It offers a wide variety of switches and keycaps, along
-              with reliable wireless connectivity.
-            </p>
+          <div class="">
+            <img
+              class="desktop-b:w-[540px] mobile-sm:h-[480px] w-full"
+              src="/image/keyboard.png"
+              alt=""
+            />
           </div>
         </div>
-        <div class="grid grid-cols-4 gap-14 mt-[168px]">
-          <div class="max-w-[255px]">
-            <img src="/image/monitor.png" alt="" />
-            <div class="mt-12 font-bold text-2xl max-w-[220px]">
-              HIGHLY COMPATIBLE
+        <div class="mobile-sm:px-10">
+          <div
+            class="mobile-sm:block desktop-b:flex justify-between mt-6 items-center"
+          >
+            <div class="flex">
+              <img src="/image/orange-keybord.png" alt="keybord image" />
+              <img class="ml-8" src="/image/office.png" alt="office image" />
             </div>
-            <p class="mt-6 text-blue-900">
-              Easy to use and works well with all major computer brands, gaming
-              consoles and mobile devices. Plug & play, no installation or
-              driver needed.
-            </p>
-          </div>
-          <div class="max-w-[255px]">
-            <img src="/image/blututh.png" alt="" />
-            <div class="mt-12 font-bold text-2xl max-w-[220px]">
-              WIRELESS WITH BLUETOOTH
+            <div
+              class="desktop-b:max-w-[245px] mobile-sm:w-full mobile-sm:flex mobile-sm:mt-[86px] desktop-b:mt-0 desktop-b:block"
+            >
+              <p class="text-2xl font-bold">MECHANICAL WIRELESS KEYBOARD</p>
+              <p
+                class="desktop-b:mt-7 mobile-sm:mt-0 mobile-sm:ml-10 desktop-b:ml-0 mobile-sm:max-w-[40%]:"
+              >
+                The Typemaster keyboard boasts top-notch build and practical
+                design. It offers a wide variety of switches and keycaps, along
+                with reliable wireless connectivity.
+              </p>
             </div>
-            <p class="mt-6 text-blue-900">
-              Powerful 2.4G RF technology allows you to connect the cordless
-              keyboard from up to 30ft away. Simply plug the unifying receiver
-              into your computer.
-            </p>
           </div>
-          <div class="max-w-[255px]">
-            <img src="/image/battary.png" alt="" />
-            <div class="mt-12 font-bold text-2xl max-w-[220px]">
-              HIGH CAPACITY BATTERY
+          <div class="grid grid-cols-4 gap-2 mt-[168px]">
+            <div class="max-w-[255px]">
+              <img src="/image/monitor.png" alt="" />
+              <div class="mt-12 font-bold text-2xl max-w-[220px]">
+                HIGHLY COMPATIBLE
+              </div>
+              <p class="mt-6 text-blue-900">
+                Easy to use and works well with all major computer brands,
+                gaming consoles and mobile devices. Plug & play, no installation
+                or driver needed.
+              </p>
             </div>
-            <p class="mt-6 text-blue-900">
-              Equipped with a long-lasting built-in battery, you’ll never have
-              to spend a dime on replaceable ones. Enjoy 40 hours of usage time
-              between charges.
-            </p>
-          </div>
-          <div class="max-w-[255px]">
-            <img src="/image/lamplight.png" alt="lamplight-image" />
-            <div class="mt-12 font-bold text-2xl max-w-[220px]">
-              RGB BACKLIT MODES
+            <div class="max-w-[255px]">
+              <img src="/image/blututh.png" alt="" />
+              <div class="mt-12 font-bold text-2xl max-w-[220px]">
+                WIRELESS WITH BLUETOOTH
+              </div>
+              <p class="mt-6 text-blue-900">
+                Powerful 2.4G RF technology allows you to connect the cordless
+                keyboard from up to 30ft away. Simply plug the unifying receiver
+                into your computer.
+              </p>
             </div>
-            <p class="mt-6 text-blue-900">
-              Choose from 4 backlight brightness levels and adjustable breathing
-              speed. Each key glows intensely in the dark and helps you type in
-              low light conditions.
-            </p>
+            <div class="max-w-[255px]">
+              <img src="/image/battary.png" alt="" />
+              <div class="mt-12 font-bold text-2xl max-w-[220px]">
+                HIGH CAPACITY BATTERY
+              </div>
+              <p class="mt-6 text-blue-900">
+                Equipped with a long-lasting built-in battery, you’ll never have
+                to spend a dime on replaceable ones. Enjoy 40 hours of usage
+                time between charges.
+              </p>
+            </div>
+            <div class="max-w-[255px]">
+              <img src="/image/lamplight.png" alt="lamplight-image" />
+              <div class="mt-12 font-bold text-2xl max-w-[220px]">
+                RGB BACKLIT MODES
+              </div>
+              <p class="mt-6 text-blue-900">
+                Choose from 4 backlight brightness levels and adjustable
+                breathing speed. Each key glows intensely in the dark and helps
+                you type in low light conditions.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="footer flex justify-center mb-10">
-          <p class="font-bold text-blue-900 mt-[128px]">
+          <div class="footer mb-10"></div>
+          <p class="font-bold m-auto text-blue-900 mt-[128px]">
             Typemaster 2021 | All Rights Reserved
           </p>
         </div>
